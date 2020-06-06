@@ -17,12 +17,13 @@
     "test:watch": "npm run test -- --watch",
     "eject": "react-scripts eject",
     "lint": "./node_modules/.bin/eslint ./",
-    "testci": "jest --ci --testResultsProcessor=jest-junit-reporter"
+    "testci": "jest --ci --testResultsProcessor=jest-junit-reporter --coverage --coverageReporters=cobertura"
   },
   "eslintConfig": {
     "extends": "react-app"
   },
   "jest": {
+    "coverageReporters":"cobertura",
     "testResultsProcessor": "./node_modules/jest-junit-reporter"
   },
   "browserslist": {

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite id="0" name="/home/facu/Desktop/loansProject/src/helpers.spec.js" errors="0" package="/home/facu/Desktop/loansProject/src/helpers.spec.js" hostname="localhost" tests="1" failures="0" time="0.734" timestamp="2020-06-06T17:20:43">
+  <testsuite id="0" name="/home/facu/Desktop/loansProject/src/helpers.spec.js" errors="0" package="/home/facu/Desktop/loansProject/src/helpers.spec.js" hostname="localhost" tests="1" failures="0" time="0.754" timestamp="2020-06-06T17:39:13">
     <properties>
     </properties>
     <testcase classname="Calculate Total Function" name="Calculates a total" time="0">
