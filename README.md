@@ -1,7 +1,7 @@
 # Loans Project
 
 ## Small loans calculator project made with react in js
-
+[![Build Status](https://dev.azure.com/facucuzziol/IDSpruebas/_apis/build/status/FacuCuzziol.loansProject?branchName=master)](https://dev.azure.com/facucuzziol/IDSpruebas/_build/latest?definitionId=3&branchName=master)
 ### The project can be seen at the following website: [See the Project](https://nostalgic-stonebraker-89fe1c.netlify.com)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
