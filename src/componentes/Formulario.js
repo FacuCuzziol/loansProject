@@ -1,6 +1,6 @@
 import React,{Fragment,useState} from 'react';
 import {calcularTotal} from '../helpers';
-
+import PropTypes from "prop-types";
 
 const Formulario = (props) => {
 
@@ -23,10 +23,12 @@ const Formulario = (props) => {
 
         setTimeout( () =>{
             const total = calcularTotal(cantidad,plazo);
-
+            console.log(total);
             guardarTotal(total);
 
             guardarCargando(false);
+
+            
 
 
         },3000);
@@ -77,3 +79,14 @@ const Formulario = (props) => {
 }
  
 export default Formulario;
+
+Formulario.propTypes = {
+    cantidad: PropTypes.number,
+    guardarCantidad : PropTypes.func,
+    plazo: PropTypes.number,
+    guardarPlazo : PropTypes.func,
+    total: PropTypes.number,
+    guardarTotal :  PropTypes.func,
+    guardarCargando : PropTypes.func,
+
+}

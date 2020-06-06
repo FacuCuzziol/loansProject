@@ -9,3 +9,4 @@ describe('Calculate Total Function', () => {
       expect(calcularTotal(900,12)).toEqual(1260);
     });
   });
+

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import PropTypes from "prop-types";
 
 const Resultado = ({total,plazo,cantidad}) => (
     <div className="u-full-width resultado">
@@ -13,3 +13,13 @@ const Resultado = ({total,plazo,cantidad}) => (
 );
  
 export default Resultado;
+
+
+Resultado.propTypes = {
+    total: PropTypes.number,
+    toFixed : PropTypes.func,
+    plazo: PropTypes.number,
+    cantidad: PropTypes.number,
+
+
+}
