@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/facucuzziol/IDSpruebas/_apis/build/status/FacuCuzziol.loansProject?branchName=master)](https://dev.azure.com/facucuzziol/IDSpruebas/_build/latest?definitionId=3&branchName=master)
+
 # Loans Project
 
 ## Small loans calculator project made with react in js
