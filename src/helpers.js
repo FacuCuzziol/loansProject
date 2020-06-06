@@ -42,3 +42,4 @@ export function calcularTotal(cantidad,plazo){
 }
 
 
+export default calcularTotal;
