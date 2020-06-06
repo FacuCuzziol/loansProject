@@ -23,7 +23,7 @@
     "extends": "react-app"
   },
   "jest": {
-    "coverageReporters": "cobertura",
+    "coverageReporters":["cobertura"],
     "testResultsProcessor": "./node_modules/jest-junit-reporter"
   },
   "browserslist": {
