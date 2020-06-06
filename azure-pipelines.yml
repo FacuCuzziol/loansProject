@@ -64,3 +64,5 @@ steps:
   inputs:
     rootFolderOrFile: '$(System.DefaultWorkingDirectory)'
     includeRootFolder: false
+
+- task: PublishPipelineArtifact@1
