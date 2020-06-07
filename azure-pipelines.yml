@@ -71,3 +71,10 @@ steps:
     artifact: 'drop'
 
 
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectionType: 'AzureRM'
+    azureSubscription: 'Azure for Students(0126988c-2a0f-4b25-a874-4ae3917d1038)'
+    appType: 'webApp'
+    WebAppName: 'ids-releases'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
