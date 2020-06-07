@@ -47,13 +47,7 @@ steps:
     testRunTitle: 'Jest Unit Tests'
   displayName : Publish test results
 
-  #Publish code coverage report
-- task: PublishCodeCoverageResults@1
-  inputs:
-    codeCoverageTool: 'Cobertura'
-    summaryFileLocation: 'coverage/cobertura-coverage.xml'
-    failIfCoverageEmpty: true
-  displayName: Publish code coverage results
+
 
 - task: ArchiveFiles@2
   inputs:
@@ -70,11 +64,3 @@ steps:
     buildType: current
     artifact: 'drop'
 
-
-- task: AzureRmWebAppDeployment@4
-  inputs:
-    ConnectionType: 'AzureRM'
-    azureSubscription: 'Azure for Students(0126988c-2a0f-4b25-a874-4ae3917d1038)'
-    appType: 'webApp'
-    WebAppName: 'ids-releases'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/drop/*.zip'
